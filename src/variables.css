@@ -1,0 +1,87 @@
+/* ==========================================================================
+   NEXO ARCHITECTURAL DESIGN SYSTEM - CSS DESIGN TOKENS
+   Estética: Brutalismo Moderno / Arquitectura & Ebanistería de Autor
+   ========================================================================== */
+
+:root {
+  /* 1. PALETA DE COLORES */
+  --color-raw-black: #0c0a09;       /* Fondo maestro / Grafito profundo */
+  --color-raw-dark: #171513;        /* Fondo secundario / Secciones */
+  --color-raw-card: #1f1c18;        /* Superficie de tarjetas */
+  --color-raw-elevated: #292522;    /* Modales y elementos elevados */
+  --color-raw-paper: #f4f1ea;       /* Papel crudo de planos */
+  --color-raw-beige: #e5ded2;       /* Tono arena / Aserradero */
+  --color-raw-white: #ffffff;       /* Blanco puro de contraste */
+
+  /* Maderas Nobles & Acentos de Taller */
+  --color-amber-500: #d97706;       /* Ámbar de taller / Cintas métricas */
+  --color-amber-400: #f59e0b;       /* Resaltados & badges */
+  --color-amber-600: #b45309;       /* Ámbar presionado */
+  --color-oak: #c29b38;             /* Roble */
+  --color-walnut: #4a2c11;          /* Nogal */
+  --color-lapacho: #2c1a0e;         /* Lapacho */
+
+  /* Bordes & Estados */
+  --border-technical: #292524;
+  --border-light: #44403c;
+  --border-accent: #d97706;
+  --status-active: #10b981;
+  --status-warning: #f59e0b;
+  --status-error: #ef4444;
+
+  /* 2. TIPOGRAFÍAS */
+  --font-display: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Space Grotesk", "SF Mono", Monaco, Inconsolata, monospace;
+
+  /* 3. TAMAÑOS DE FUENTE */
+  --font-size-2xs: 0.625rem;       /* 10px */
+  --font-size-xs: 0.75rem;         /* 12px */
+  --font-size-sm: 0.875rem;        /* 14px */
+  --font-size-base: 1rem;          /* 16px */
+  --font-size-lg: 1.125rem;        /* 18px */
+  --font-size-xl: 1.25rem;         /* 20px */
+  --font-size-2xl: 1.5rem;         /* 24px */
+  --font-size-3xl: 1.875rem;       /* 30px */
+  --font-size-4xl: 2.25rem;        /* 36px */
+  --font-size-5xl: 3rem;           /* 48px */
+  --font-size-6xl: 3.75rem;        /* 60px */
+  --font-size-7xl: 4.5rem;         /* 72px */
+  --font-size-8xl: 6rem;           /* 96px */
+  --font-size-hero: clamp(2.25rem, 7vw, 6.5rem);
+
+  /* 4. ESPACIADOS */
+  --space-1: 0.25rem;              /* 4px */
+  --space-2: 0.5rem;               /* 8px */
+  --space-3: 0.75rem;              /* 12px */
+  --space-4: 1rem;                 /* 16px */
+  --space-6: 1.5rem;               /* 24px */
+  --space-8: 2rem;                 /* 32px */
+  --space-12: 3rem;                /* 48px */
+  --space-16: 4rem;                /* 64px */
+  --space-24: 6rem;                /* 96px */
+  --space-32: 8rem;                /* 128px */
+  --container-max-width: 80rem;    /* 1280px */
+  --header-height: 5.5rem;         /* 88px */
+
+  /* 5. SOMBRAS DURAS */
+  --shadow-brutal-sm: 3px 3px 0px 0px #000000;
+  --shadow-brutal-md: 6px 6px 0px 0px #000000;
+  --shadow-brutal-lg: 10px 10px 0px 0px #000000;
+  --shadow-brutal-amber: 6px 6px 0px 0px #d97706;
+  --shadow-brutal-white: 6px 6px 0px 0px #f4f1ea;
+  --shadow-brutal-dark: 8px 8px 0px 0px #1f1c18;
+
+  /* 6. BORDES & RADIOS */
+  --border-width-hairline: 1px;
+  --border-width-regular: 2px;
+  --border-width-thick: 4px;
+  --radius-sharp: 0px;
+
+  /* 7. TRANSICIONES */
+  --ease-tactile: cubic-bezier(0.2, 0, 0, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 700ms;
+}

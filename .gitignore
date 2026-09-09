@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary tunnels & local binaries
+cloudflared.exe
+*.exe
+cf_*.txt
+cf_*.log
+tunnel_*.txt
+tunnel_*.log
+pinggy_log.txt
+run_cf*.cjs
+start_tunnel.cjs
+tunnel.cjs

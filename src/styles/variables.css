@@ -1,0 +1,118 @@
+/* ==========================================================================
+   NEXO ARCHITECTURAL DESIGN SYSTEM - CSS TOKENS & CUSTOM PROPERTIES
+   Estética: Brutalismo Moderno / Ingeniería & Ebanistería de Autor
+   ========================================================================== */
+
+:root {
+  /* --------------------------------------------------------------------------
+     1. PALETA DE COLORES (COLOR TOKENS)
+     -------------------------------------------------------------------------- */
+  /* Fondos Primarios & Oscuros */
+  --color-raw-black: #0c0a09;       /* Fondo maestro (Grafito profundo) */
+  --color-raw-dark: #171513;        /* Fondo secundario / Secciones alternadas */
+  --color-raw-card: #1f1c18;        /* Superficie de tarjetas y módulos */
+  --color-raw-elevated: #292522;    /* Elementos elevados / Modales */
+
+  /* Papeles & Claros Arquitectónicos */
+  --color-raw-paper: #f4f1ea;       /* Papel crudo de planos */
+  --color-raw-beige: #e5ded2;       /* Tono arena de aserradero */
+  --color-raw-white: #ffffff;       /* Blanco puro de contraste */
+
+  /* Acentos de Taller & Madera Noble */
+  --color-amber-500: #d97706;       /* Ámbar de taller / Cintas de medición */
+  --color-amber-400: #f59e0b;       /* Resaltado de marcas e indicadores */
+  --color-amber-600: #b45309;       /* Ámbar profundo / Estado presionado */
+  --color-oak: #c29b38;             /* Roble natural */
+  --color-walnut: #4a2c11;          /* Nogal americano */
+  --color-lapacho: #2c1a0e;         /* Lapacho paraguayo */
+
+  /* Bordes & Líneas Técnicas */
+  --border-technical: #292524;      /* Borde oscuro estándar */
+  --border-light: #44403c;          /* Borde destacado */
+  --border-accent: #d97706;         /* Borde ámbar activo */
+
+  /* Estados Funcionales */
+  --status-active: #10b981;         /* Verde señalización (Taller Activo) */
+  --status-warning: #f59e0b;        /* Advertencia técnica */
+  --status-error: #ef4444;          /* Error de cota / 404 */
+
+  /* --------------------------------------------------------------------------
+     2. TIPOGRAFÍAS (FONT FAMILIES)
+     -------------------------------------------------------------------------- */
+  --font-display: "Syne", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Space Grotesk", "SF Mono", Monaco, Inconsolata, monospace;
+
+  /* --------------------------------------------------------------------------
+     3. ESCALA DE TAMAÑOS DE FUENTE (FONT SIZES & LINE HEIGHTS)
+     -------------------------------------------------------------------------- */
+  --font-size-2xs: 0.625rem;       /* 10px - Micro-tags & cotas */
+  --font-size-xs: 0.75rem;         /* 12px - Badges & metadata */
+  --font-size-sm: 0.875rem;        /* 14px - Textos secundarios */
+  --font-size-base: 1rem;          /* 16px - Cuerpo de lectura */
+  --font-size-lg: 1.125rem;        /* 18px - Párrafos destacados */
+  --font-size-xl: 1.25rem;         /* 20px - Subtítulos de tarjetas */
+  --font-size-2xl: 1.5rem;         /* 24px - Títulos de sección compactos */
+  --font-size-3xl: 1.875rem;       /* 30px - Encabezados medianos */
+  --font-size-4xl: 2.25rem;        /* 36px - Títulos mayores */
+  --font-size-5xl: 3rem;           /* 48px - Títulos monumentales */
+  --font-size-6xl: 3.75rem;        /* 60px - Display secundario */
+  --font-size-7xl: 4.5rem;         /* 72px - Display colosal */
+  --font-size-8xl: 6rem;           /* 96px - Display colosal desktop */
+  --font-size-hero: clamp(2.25rem, 7vw, 6.5rem); /* Hero responsivo fluido */
+
+  --line-height-tight: 0.95;
+  --line-height-heading: 1.08;
+  --line-height-body: 1.65;
+
+  /* --------------------------------------------------------------------------
+     4. ESPACIADOS (SPACING & GRID SYSTEM)
+     -------------------------------------------------------------------------- */
+  --space-0: 0px;
+  --space-1: 0.25rem;              /* 4px */
+  --space-2: 0.5rem;               /* 8px */
+  --space-3: 0.75rem;              /* 12px */
+  --space-4: 1rem;                 /* 16px */
+  --space-5: 1.25rem;              /* 20px */
+  --space-6: 1.5rem;               /* 24px */
+  --space-8: 2rem;                 /* 32px */
+  --space-10: 2.5rem;              /* 40px */
+  --space-12: 3rem;                /* 48px */
+  --space-16: 4rem;                /* 64px */
+  --space-20: 5rem;                /* 80px */
+  --space-24: 6rem;                /* 96px */
+  --space-32: 8rem;                /* 128px */
+
+  --container-max-width: 80rem;    /* 1280px */
+  --header-height: 5.5rem;         /* 88px */
+
+  /* --------------------------------------------------------------------------
+     5. SOMBRAS BRUTALISTAS DURAS (HARD OFFSET DROP SHADOWS)
+     -------------------------------------------------------------------------- */
+  --shadow-brutal-xs: 2px 2px 0px 0px #000000;
+  --shadow-brutal-sm: 3px 3px 0px 0px #000000;
+  --shadow-brutal-md: 6px 6px 0px 0px #000000;
+  --shadow-brutal-lg: 10px 10px 0px 0px #000000;
+  --shadow-brutal-amber: 6px 6px 0px 0px #d97706;
+  --shadow-brutal-white: 6px 6px 0px 0px #f4f1ea;
+  --shadow-brutal-dark: 8px 8px 0px 0px #1f1c18;
+
+  /* --------------------------------------------------------------------------
+     6. BORDES & RADIOS ANGULARES (BORDERS & ZERO-RADIUS)
+     -------------------------------------------------------------------------- */
+  --border-width-hairline: 1px;
+  --border-width-regular: 2px;
+  --border-width-thick: 4px;
+  --radius-sharp: 0px;             /* Brutalismo puro sin bordes redondeados */
+  --radius-pill: 9999px;           /* Píldoras de estado */
+
+  /* --------------------------------------------------------------------------
+     7. TRANSICIONES TÁCTILES (PHYSICAL PRESS TRANSITIONS)
+     -------------------------------------------------------------------------- */
+  --ease-tactile: cubic-bezier(0.2, 0, 0, 1);
+  --duration-instant: 100ms;
+  --duration-fast: 200ms;
+  --duration-normal: 350ms;
+  --duration-slow: 700ms;
+}
