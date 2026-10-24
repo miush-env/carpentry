@@ -33,4 +33,6 @@ tunnel_*.log
 pinggy_log.txt
 run_cf*.cjs
 start_tunnel.cjs
+*.zip
 tunnel.cjs
+*.zip

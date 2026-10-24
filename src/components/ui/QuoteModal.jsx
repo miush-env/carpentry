@@ -33,7 +33,7 @@ export default function QuoteModal() {
     if (!formData.name.trim()) errs.name = 'El nombre es obligatorio';
     if (!formData.email.trim()) {
       errs.email = 'El email es obligatorio';
-    } else if (!/^[^s@]+@[^s@]+.[^s@]+$/.test(formData.email)) {
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       errs.email = 'Ingresá un email válido';
     }
     if (!formData.phone.trim()) errs.phone = 'El teléfono es obligatorio';

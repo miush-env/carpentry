@@ -9,7 +9,7 @@ export const materials = [
     "durability": "Excelente resistencia al desgaste y estabilidad",
     "applications": "Mobiliario de autor, frentes de cocina, pisos ingenieriles y revestimientos nobles.",
     "description": "La madera por excelencia de la arquitectura clásica y contemporánea. Su grano pronunciado y estabilidad la convierten en el material predilecto para piezas que deben trascender generaciones.",
-    "image": "https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/muebles/muebles-1.jpg",
     "finishType": "Hidrolaqueado mate, aceite orgánico, cepillado profundo"
   },
   {
@@ -22,7 +22,7 @@ export const materials = [
     "durability": "Naturalmente inmune a polillas y hongos gracias a sus resinas aromáticas",
     "applications": "Interiores de placares y vestidores, carpintería de puertas de entrada, molduras.",
     "description": "Famoso por su inconfundible fragancia natural y ligereza. Trabajarlo permite detalles de fresado sumamente finos y uniones de altísima precisión.",
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/muebles/muebles-2.jpg",
     "finishType": "Cera de abeja natural, aceite de teca, laca satinada"
   },
   {
@@ -35,7 +35,7 @@ export const materials = [
     "durability": "Alta durabilidad con tratamiento previo al autoclave CCA",
     "applications": "Vigas estructurales, tirantes de techo, tirantería de decks, encofrados a la vista.",
     "description": "Versátil, económico y de gran nobleza estructural cuando se selecciona y seca a horno adecuadamente. Es la espina dorsal de nuestras cubiertas y entramados ligeros.",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/techos/techos-2.jpg",
     "finishType": "Impregnante fungicida, lasur protector UV, Shou Sugi Ban (carbonizado)"
   },
   {
@@ -48,7 +48,7 @@ export const materials = [
     "durability": "Excepcional estabilidad dimensional y nula contracción",
     "applications": "Tapas de mesa escultóricas, detalles de ebanistería, tiradores macizos, escritorios ejecutivos.",
     "description": "La joya oscura de la carpintería. Su suavidad al tacto y su profundo tono natural la hacen única, sin necesidad de teñidos artificiales.",
-    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/muebles/muebles-5.jpg",
     "finishType": "Aceite de linaza crudo polimerizado, frotado a muñeca con ceras"
   },
   {
@@ -61,7 +61,7 @@ export const materials = [
     "durability": "Imputrescible, resistente al fuego (Clase A) e inmune a insectos xilófagos",
     "applications": "Decks de alto tránsito, bordes de piscina, pérgolas pesadas, umbrales y peldaños de escalera.",
     "description": "Una de las maderas más duras del planeta. Es la elección indiscutida para intemperie severa y contacto con agua.",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/plataformas/plataformas-2.jpg",
     "finishType": "Aceite de teca hidrorrepelente, lasur de base acuosa"
   },
   {
@@ -74,7 +74,7 @@ export const materials = [
     "durability": "Mayor resistencia peso/resistencia que el acero estructural",
     "applications": "Pórticos de grandes luces, arcos curvos, entrepisos y estructuras arquitectónicas complejas.",
     "description": "Unión de láminas de madera técnicamente calibradas y prensadas con colas hidrófugas. Permite salvar distancias monumentales con una huella ecológica mínima.",
-    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/techos/techos-5.jpg",
     "finishType": "Barnices ignífugos micro-porosos, barniz marino poliuretánico"
   },
   {
@@ -87,7 +87,7 @@ export const materials = [
     "durability": "Óptima resistencia al vapor, hinchamiento y pandeo",
     "applications": "Interiores de cocina, muebles de baño, fondos de placard y frentes laqueados.",
     "description": "Bases ultra estables para laqueados poliuretánicos de terminación perfecta y frentes enchapados en madera natural con cantos de ABS de 2mm.",
-    "image": "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/cocinas/cocinas-4.jpg",
     "finishType": "Laqueado poliuretánico texturado mate, aplacado de láminas nobles"
   },
   {
@@ -100,7 +100,7 @@ export const materials = [
     "durability": "Ensayados a más de 100.000 ciclos de apertura y cierre continuo",
     "applications": "Bisagras clip con freno integrado, cajones de doble pared metálica, elevadores de puertas pesadas.",
     "description": "La ingeniería oculta que garantiza un funcionamiento suave y silencioso para toda la vida útil del mueble.",
-    "image": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=800&q=80",
+    "image": "/images/taller/taller-2.jpg",
     "finishType": "Recubrimiento electroforético anticorrosivo"
   }
 ];

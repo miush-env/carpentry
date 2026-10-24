@@ -6,11 +6,12 @@ export const services = [
     "title": "Muebles a medida",
     "shortDescription": "Diseñamos y fabricamos muebles únicos para cada espacio con maderas nobles y terminaciones de autor.",
     "fullDescription": "Piezas exclusivas concebidas como extensiones naturales de la arquitectura del lugar. Desde mesas de comedor en maderas macizas hasta sistemas modulares suspendidos y bibliotecas monumentales, cada elemento responde a la proporción, el uso y el lenguaje del entorno.",
-    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/muebles/muebles-1.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
+      "/images/muebles/muebles-1.jpg",
+      "/images/muebles/muebles-2.jpg",
+      "/images/muebles/muebles-3.jpg",
+      "/images/muebles/muebles-4.jpg"
     ],
     "features": [
       "Uniones tradicionales ensambladas a mano",
@@ -34,11 +35,12 @@ export const services = [
     "title": "Cocinas",
     "shortDescription": "Funcionalidad y diseño en cada detalle, integrando frentes de madera maciza, aplacados y herrajes premium.",
     "fullDescription": "Espacios de encuentro donde la gastronomía convive con la calidez del material. Desarrollamos islas escultóricas, mobiliario bajo y sobre mesada con frentes enchapados en madera natural o madera maciza, integrando electrodomésticos empotrados y sistemas de apertura asistida.",
-    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/cocinas/cocinas-1.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80"
+      "/images/cocinas/cocinas-1.jpg",
+      "/images/cocinas/cocinas-2.jpg",
+      "/images/cocinas/cocinas-3.jpg",
+      "/images/cocinas/cocinas-4.jpg"
     ],
     "features": [
       "Sistemas de cierre suave y apertura push/gola",
@@ -62,11 +64,12 @@ export const services = [
     "title": "Placares y vestidores",
     "shortDescription": "Organización y estilo en cada rincón con vestidores abiertos, puertas corredizas y frentes alistonados.",
     "fullDescription": "Sistemas de guardado pensados a escala humana. Configuraciones ergonómicas que aprovechan cada centímetro cúbico, con frentes lisos al techo, vidrios tonalizados, perfiles de aluminio anodizado y accesorios interiores tapizados en lino.",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/muebles/muebles-5.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1558997519-83ea9252def8?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80"
+      "/images/muebles/muebles-5.jpg",
+      "/images/muebles/muebles-6.jpg",
+      "/images/muebles/muebles-7.jpg",
+      "/images/muebles/muebles-8.jpg"
     ],
     "features": [
       "Distribuciones modulares personalizadas según el guardarropa",
@@ -86,20 +89,21 @@ export const services = [
     "id": "interiores",
     "slug": "interiores",
     "number": "04",
-    "title": "Interiores",
-    "shortDescription": "Revestimientos de pared, cielorrasos alistonados y tabiques divisorios que transforman la atmósfera.",
-    "fullDescription": "Diseño y aplicación de envolventes de madera para proyectos residenciales y corporativos. Paneles acústicos ranurados, celosías pivotantes y revestimientos en madera natural que aportan confort térmico, acústico y una identidad sensorial inconfundible.",
-    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+    "title": "Interiores & Escaleras",
+    "shortDescription": "Escaleras escultóricas, revestimientos de pared, cielorrasos y tabiques divisorios que transforman la atmósfera.",
+    "fullDescription": "Diseño y aplicación de envolventes de madera y escaleras de autor para proyectos residenciales y corporativos. Paneles acústicos ranurados, celosías pivotantes y estructuras en madera natural que aportan confort térmico, acústico y una identidad sensorial inconfundible.",
+    "image": "/images/escaleras/escaleras-1.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1618221381711-42ca8ab6e908?auto=format&fit=crop&w=1200&q=80"
+      "/images/escaleras/escaleras-1.jpg",
+      "/images/escaleras/escaleras-2.jpg",
+      "/images/escaleras/escaleras-3.jpg",
+      "/images/escaleras/escaleras-4.jpg"
     ],
     "features": [
+      "Escaleras compensadas y voladas con estructura invisible",
       "Acondicionamiento acústico sutil y decorativo",
       "Puertas ocultas enrasadas en el mismo plano del revestimiento",
-      "Terminaciones mate que realzan las vetas naturales",
-      "Instalación en seco rápida y de bajo impacto"
+      "Terminaciones mate que realzan las vetas naturales"
     ],
     "materials": [
       "Paraíso",
@@ -108,7 +112,7 @@ export const services = [
       "Fieltro acústico reciclado"
     ],
     "processTime": "2 a 6 semanas",
-    "categoryTag": "Revestimientos & Panelería"
+    "categoryTag": "Revestimientos & Escaleras"
   },
   {
     "id": "pisos",
@@ -117,10 +121,12 @@ export const services = [
     "title": "Pisos",
     "shortDescription": "Calidez y resistencia en maderas nobles, pisos ingenieriles y entablonados hidrolaqueados.",
     "fullDescription": "Pisos de madera maciza e ingenieril seleccionados por su estabilidad dimensional y belleza atemporal. Diseños en espiga (Herringbone), punto Hungría (Chevron) y tablas anchas de gran longitud con microbisel y tratamientos de protección de alto tránsito.",
-    "image": "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/pisos/pisos-1.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80"
+      "/images/pisos/pisos-1.jpg",
+      "/images/pisos/pisos-2.jpg",
+      "/images/pisos/pisos-3.jpg",
+      "/images/pisos/pisos-4.jpg"
     ],
     "features": [
       "Pisos de madera maciza de 3/4 pulgada y multicapa de ingeniería",
@@ -142,12 +148,14 @@ export const services = [
     "slug": "decks-y-exteriores",
     "number": "06",
     "title": "Decks y exteriores",
-    "shortDescription": "Disfrutá la naturaleza con solados perimetrales, bordes de piscina y galerías de madera dura.",
+    "shortDescription": "Disfrutá la naturaleza con solados perimetrales, bordes de piscina y plataformas de madera dura.",
     "fullDescription": "Espacios exteriores que resisten la intemperie y el paso de los años sin perder su encanto. Estructuras de soporte elevadas y tratadas con fijación oculta clip-system para un acabado continuo, seguro y libre de tornillos a la vista.",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/plataformas/plataformas-1.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80"
+      "/images/plataformas/plataformas-1.jpg",
+      "/images/plataformas/plataformas-2.jpg",
+      "/images/plataformas/plataformas-3.jpg",
+      "/images/vallas/vallas-1.jpg"
     ],
     "features": [
       "Fijaciones ocultas de acero inoxidable",
@@ -168,13 +176,14 @@ export const services = [
     "id": "pergolas",
     "slug": "pergolas",
     "number": "07",
-    "title": "Pérgolas",
+    "title": "Pérgolas y techos",
     "shortDescription": "Sombra y estilo para tu espacio exterior, integrando vigas laminadas, celosías y policarbonato.",
     "fullDescription": "Estructuras ligeras y sólidas que extienden el área social hacia el jardín. Con cubiertas transparentes impermeables o sistemas alistonados bioclimáticos que filtran la luz solar creando sombras dinámicas a lo largo del día.",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/techos/techos-1.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      "/images/techos/techos-1.jpg",
+      "/images/techos/techos-2.jpg",
+      "/images/techos/techos-3.jpg"
     ],
     "features": [
       "Vigas multilaminadas de gran luz estructural",
@@ -195,13 +204,14 @@ export const services = [
     "id": "estructuras-de-madera",
     "slug": "estructuras-de-madera",
     "number": "08",
-    "title": "Estructuras de madera",
+    "title": "Estructuras y cubiertas de madera",
     "shortDescription": "Resistencia y diseño arquitectónico en techos a la vista, cerchas, altillos y entrepisos estructurales.",
     "fullDescription": "Cálculo, mecanizado y montaje de sistemas estructurales en madera pesada y madera laminada encolada (Glulam). Proyectos de cubiertas complejas, pórticos continuos y pabellones donde la madera es el elemento estructural y estético primordial.",
-    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/techos/techos-4.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80"
+      "/images/techos/techos-4.jpg",
+      "/images/techos/techos-5.jpg",
+      "/images/techos/techos-6.jpg"
     ],
     "features": [
       "Cálculo estático y verificación estructural profesional",
@@ -222,13 +232,15 @@ export const services = [
     "id": "construccion-modular",
     "slug": "construccion-modular",
     "number": "09",
-    "title": "Construcción modular",
-    "shortDescription": "Rápida, eficiente y sustentable. Módulos habitables, cabañas de diseño y quinchos llave en mano.",
+    "title": "Construcción modular & Casas",
+    "shortDescription": "Rápida, eficiente y sustentable. Casas de madera, módulos habitables y quinchos llave en mano.",
     "fullDescription": "Sistemas constructivos industrializados en madera con tecnología Timber Frame y paneles SIP. Fabricación controlada en taller que reduce tiempos de obra en un 70% y garantiza una eficiencia térmica y acústica de estándar europeo.",
-    "image": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=80",
+    "image": "/images/casas/casas-1.jpg",
     "gallery": [
-      "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+      "/images/casas/casas-1.jpg",
+      "/images/casas/casas-2.jpg",
+      "/images/casas/casas-5.jpg",
+      "/images/casas/casas-9.jpg"
     ],
     "features": [
       "Aislación térmica de alta densidad en lana de vidrio y celulosa",

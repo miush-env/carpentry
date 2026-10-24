@@ -4,7 +4,7 @@ export const testimonials = [
     "name": "Arq. Martín Benítez",
     "role": "Estudio Benítez & Asoc.",
     "location": "Pilar, Buenos Aires",
-    "project": "Casa en la montaña (Estructura y carpinterías)",
+    "project": "Residencia contemporánea (Estructura y carpinterías)",
     "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
     "rating": 5,
     "text": "El equipo de NEXO fue increíble. Desde el primer contacto hasta el montaje en obra, todo fue de una precisión milimétrica. Entendieron a la perfección el lenguaje arquitectónico que buscábamos y el resultado superó nuestras expectativas y las de nuestro cliente."

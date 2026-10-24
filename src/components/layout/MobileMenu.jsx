@@ -77,7 +77,9 @@ export default function MobileMenu({ isOpen, onClose, navLinks, onOpenQuote }) {
           </div>
           <div className='flex items-center gap-2'>
             <Mail className='w-3.5 h-3.5 text-stone-500' />
-            <span>contacto@nexo-arquitectura.com</span>
+            <a href='mailto:basach1582@gmail.com' className='hover:text-stone-200 transition-colors'>
+              basach1582@gmail.com
+            </a>
           </div>
           <div className='flex items-center gap-2'>
             <MapPin className='w-3.5 h-3.5 text-stone-500' />

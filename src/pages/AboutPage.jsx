@@ -21,7 +21,7 @@ export default function AboutPage() {
     {
       icon: Award,
       title: 'Maderas seleccionadas',
-      desc: 'Lotes estacionados y secados a horno (&lt;12% humedad) con certificación de manejo FSC.'
+      desc: 'Lotes estacionados y secados a horno (<12% humedad) con certificación de manejo FSC.'
     },
     {
       icon: Users,
@@ -77,9 +77,9 @@ export default function AboutPage() {
             <div className='lg:col-span-6 space-y-3'>
               <div className='aspect-[4/3] w-full overflow-hidden bg-stone-950 border-2 border-stone-800 shadow-brutal-dark'>
                 <img
-                  src='https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=1200&q=80'
-                  alt='Taller'
-                  className='w-full h-full object-cover grayscale-[15%]'
+                  src='/images/taller/taller-2.jpg'
+                  alt='Taller de ebanistería y mecanizado'
+                  className='w-full h-full object-cover grayscale-[10%]'
                 />
               </div>
               <p className='text-xs font-mono text-stone-500 text-right'>

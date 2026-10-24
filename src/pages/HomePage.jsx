@@ -94,9 +94,9 @@ export default function HomePage() {
         <div className='absolute inset-0 z-0 overflow-hidden pointer-events-none'>
           <div className='w-full h-full animate-hero-vibrate'>
             <img
-              src='https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=2000&q=90'
-              alt='Arquitectura de madera'
-              className='w-full h-full object-cover brightness-[0.38] contrast-125 select-none'
+              src='/images/casas/casas-1.jpg'
+              alt='Arquitectura y carpintería de madera'
+              className='w-full h-full object-cover brightness-[0.42] contrast-125 select-none'
               priority='true'
             />
             <div className='absolute inset-0 bg-gradient-to-t from-[#0c0a09] via-[#0c0a09]/50 to-transparent' />
@@ -473,9 +473,9 @@ export default function HomePage() {
       <section className='relative py-32 bg-stone-950 text-stone-100 overflow-hidden'>
         <div className='absolute inset-0 z-0'>
           <img
-            src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85'
-            alt='Residencia en madera'
-            className='w-full h-full object-cover brightness-[0.3] contrast-125'
+            src='/images/taller/taller-1.jpg'
+            alt='Taller de carpintería y fabricación artesanal'
+            className='w-full h-full object-cover brightness-[0.28] contrast-125'
           />
           <div className='absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/80 to-transparent' />
         </div>
