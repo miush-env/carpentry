@@ -113,7 +113,7 @@ export default function HomePage() {
 
           <div className='max-w-5xl'>
             {/* Main Title: Letra por letra con efecto de martillada calibrado */}
-            <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5rem] font-display font-black tracking-tight leading-[1.08] sm:leading-[1.02] text-stone-100 uppercase break-words select-none overflow-visible pt-2 max-w-5xl'>
+            <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5rem] font-display font-black tracking-tight leading-[1.08] sm:leading-[1.02] text-stone-100 uppercase break-words select-none overflow-visible pt-2 pr-4 sm:pr-8 max-w-5xl'>
               <div className='flex flex-wrap items-baseline gap-x-3 sm:gap-x-5'>
                 {/* Palabra 1: DISEÑO, */}
                 <span className='inline-block whitespace-nowrap'>
@@ -148,7 +148,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <div className='flex flex-wrap items-baseline gap-x-3 sm:gap-x-5 mt-1 sm:mt-2'>
+              <div className='flex flex-wrap items-baseline gap-x-3 sm:gap-x-5 mt-1 sm:mt-2 overflow-visible pr-4 sm:pr-8'>
                 {/* Palabra 3: & */}
                 <span className='inline-block whitespace-nowrap'>
                   {word3.map((char) => {
@@ -166,7 +166,7 @@ export default function HomePage() {
                 </span>
 
                 {/* Palabra 4: ARQUITECTURA. */}
-                <span className='inline-block whitespace-nowrap'>
+                <span className='inline-block whitespace-nowrap pr-4 sm:pr-8 overflow-visible'>
                   {word4.map((char) => {
                     const idx = letterIndex++;
                     return (
