@@ -24,9 +24,9 @@ export default function App() {
     <ModalProvider>
       <Router>
         <ScrollToTop />
-        <div className='min-h-screen flex flex-col bg-[#faf8f5] text-[#1c1917] selection:bg-stone-900 selection:text-stone-50'>
+        <div className='min-h-screen flex flex-col bg-[#faf8f5] text-[#1c1917] selection:bg-stone-900 selection:text-stone-50 overflow-x-hidden w-full max-w-full'>
           <Navbar />
-          <main className='flex-grow'>
+          <main className='flex-grow overflow-x-hidden w-full'>
             <Routes>
               <Route path='/' element={<HomePage />} />
               <Route path='/servicios' element={<ServicesPage />} />

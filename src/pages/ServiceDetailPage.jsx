@@ -23,19 +23,19 @@ export default function ServiceDetailPage() {
   ).slice(0, 3);
 
   return (
-    <div className='w-full bg-[#0c0a09] text-[#f4f1ea]'>
+    <div className='w-full overflow-x-hidden bg-[#0c0a09] text-[#f4f1ea]'>
       {/* Header */}
-      <section className='pt-36 pb-20 border-b-2 border-stone-800 bg-[#171513] bg-grid-pattern'>
+      <section className='pt-36 pb-20 border-b-2 border-stone-800 bg-[#171513] bg-grid-pattern overflow-hidden'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <Link
             to='/servicios'
-            className='inline-flex items-center text-xs font-mono font-bold uppercase tracking-widest text-amber-400 hover:text-amber-300 transition-colors mb-6'
+            className='inline-flex items-center text-xs font-mono font-bold uppercase tracking-wider sm:tracking-widest text-amber-400 hover:text-amber-300 transition-colors mb-6 flex-wrap'
           >
-            <ArrowLeft className='w-4 h-4 mr-2' />
-            VOLVER AL CATÁLOGO DE SERVICIOS
+            <ArrowLeft className='w-4 h-4 mr-2 flex-shrink-0' />
+            <span>VOLVER AL CATÁLOGO DE SERVICIOS</span>
           </Link>
 
-          <div className='flex items-center gap-3 mb-4'>
+          <div className='flex flex-wrap items-center gap-3 mb-4'>
             <span className='px-3 py-1 bg-stone-900 border border-stone-700 text-xs font-mono text-amber-400 font-bold'>
               // ESPECIALIDAD {service.number}
             </span>
@@ -44,7 +44,7 @@ export default function ServiceDetailPage() {
             </span>
           </div>
 
-          <h1 className='text-4xl sm:text-7xl font-display font-black text-stone-100 uppercase leading-none max-w-4xl'>
+          <h1 className='text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-display font-black text-stone-100 uppercase leading-[1.08] max-w-4xl break-words [overflow-wrap:anywhere]'>
             {service.title}
           </h1>
 

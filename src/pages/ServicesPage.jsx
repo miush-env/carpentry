@@ -11,14 +11,14 @@ export default function ServicesPage() {
   const { openQuoteModal } = useModal();
 
   return (
-    <div className='w-full bg-[#0c0a09] text-[#f4f1ea]'>
+    <div className='w-full overflow-x-hidden bg-[#0c0a09] text-[#f4f1ea]'>
       {/* Page Header */}
-      <section className='pt-36 pb-20 border-b-2 border-stone-800 bg-[#171513] bg-grid-pattern'>
+      <section className='pt-36 pb-20 border-b-2 border-stone-800 bg-[#171513] bg-grid-pattern overflow-hidden'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='inline-block mb-3 px-3 py-1 bg-amber-500/10 border border-amber-500/30 text-xs font-mono font-bold uppercase tracking-widest text-amber-400'>
             // ESPECIALIDADES CONSTRUCTIVAS (01—09)
           </div>
-          <h1 className='text-4xl sm:text-7xl font-display font-black text-stone-100 uppercase leading-none max-w-4xl'>
+          <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-black text-stone-100 uppercase leading-[1.08] max-w-4xl break-words [overflow-wrap:anywhere]'>
             SERVICIOS & EBANISTERÍA
           </h1>
           <p className='mt-6 text-base sm:text-xl text-stone-300 font-normal max-w-2xl leading-relaxed font-sans'>
