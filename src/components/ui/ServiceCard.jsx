@@ -112,9 +112,19 @@ export default function ServiceCard({ service }) {
             </h3>
           </div>
 
-          <p className='mt-3 text-sm text-stone-400 leading-relaxed line-clamp-2 font-sans'>
-            {service.shortDescription}
-          </p>
+          <div className='mt-3 flex flex-wrap items-center gap-1.5'>
+            {service.materials.slice(0, 2).map((mat, i) => (
+              <span
+                key={i}
+                className='px-2 py-0.5 bg-stone-950 border border-stone-800 text-[10px] font-mono text-stone-400 uppercase'
+              >
+                {mat}
+              </span>
+            ))}
+            <span className='text-[10px] font-mono text-amber-400/80 ml-auto font-medium'>
+              {service.processTime}
+            </span>
+          </div>
         </div>
 
         <div className='mt-6 pt-4 border-t border-stone-800 flex items-center justify-between text-xs font-mono font-bold uppercase tracking-wider text-stone-300 group-hover:text-amber-400 transition-colors'>

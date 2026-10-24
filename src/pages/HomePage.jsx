@@ -105,32 +105,13 @@ export default function HomePage() {
 
         {/* Hero Content */}
         <div className='relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col justify-between'>
-          {/* Top meta strip with workshop beacon */}
-          <div className='flex flex-wrap items-center justify-between gap-4 mb-8 border-b border-stone-800/80 pb-4 text-xs font-mono text-stone-400 animate-beam-in'>
-            <div className='flex items-center gap-2'>
-              <span className='w-2 h-2 rounded-full bg-emerald-500 animate-pulse' />
-              <span className='text-stone-300 font-bold'>TALLER ACTIVO · PILAR, BUENOS AIRES</span>
-            </div>
-            <div className='flex items-center gap-4 text-stone-400'>
-              <span className='px-2 py-0.5 bg-stone-900 border border-stone-800 text-amber-400'>[ FSC CERTIFIED ]</span>
-              <span className='px-2 py-0.5 bg-stone-900 border border-stone-800 text-stone-300'>[ TOLERANCIA ±0.1MM ]</span>
-            </div>
+          {/* Top meta strip */}
+          <div className='flex items-center gap-2 mb-6 text-xs font-mono text-stone-300 animate-beam-in'>
+            <span className='w-2 h-2 rounded-full bg-emerald-500 animate-pulse' />
+            <span className='font-bold uppercase tracking-wider'>TALLER ACTIVO · PILAR, BUENOS AIRES</span>
           </div>
 
           <div className='max-w-5xl'>
-            {/* Tag with Laser indicator */}
-            <div className='inline-flex items-center gap-2 mb-4 px-2.5 sm:px-3 py-1 bg-amber-500/10 border-2 border-amber-500/40 text-[10px] sm:text-xs font-mono font-bold uppercase tracking-wider sm:tracking-[0.2em] text-amber-400 shadow-brutal-sm max-w-full truncate animate-beam-in'>
-              <span className='w-1.5 h-1.5 bg-amber-400 rounded-full animate-ping' />
-              <span>// IDEAS EN MADERA · INGENIERÍA DE AUTOR</span>
-            </div>
-
-            {/* Guía de cota / Laser line */}
-            <div className='h-[2px] bg-gradient-to-r from-amber-500 via-amber-400 to-transparent mb-5 relative animate-laser-cut'>
-              <span className='absolute -top-3 right-4 px-1.5 bg-stone-950 text-[9px] font-mono font-bold text-amber-400 border border-amber-500/50 uppercase tracking-widest hidden sm:inline-block'>
-                COTA CERO // ESCUADRA 90°
-              </span>
-            </div>
-
             {/* Main Title: Letra por letra con efecto de martillada calibrado */}
             <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5rem] font-display font-black tracking-tight leading-[1.08] sm:leading-[1.02] text-stone-100 uppercase break-words select-none overflow-visible pt-2 max-w-5xl'>
               <div className='flex flex-wrap items-baseline gap-x-3 sm:gap-x-5'>
@@ -204,25 +185,25 @@ export default function HomePage() {
 
             {/* Description paragraph */}
             <p
-              className='mt-5 sm:mt-6 text-sm sm:text-lg md:text-xl text-stone-300 font-normal max-w-3xl leading-relaxed font-sans animate-beam-in'
+              className='mt-4 sm:mt-5 text-base sm:text-xl text-stone-300 font-normal max-w-2xl leading-relaxed font-sans animate-beam-in'
               style={{ animationDelay: '1.4s' }}
             >
-              Materializamos obras de alta gama y mobiliario de autor donde la calidez del material noble se une con la precisión milimétrica de la ingeniería contemporánea.
+              Arquitectura contemporánea en madera y mobiliario de autor con ingeniería de alta precisión.
             </p>
 
-            {/* CTA Buttons with wooden planks fill animation */}
+            {/* CTA Buttons */}
             <div
-              className='mt-8 sm:mt-10 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 animate-beam-in'
+              className='mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 animate-beam-in'
               style={{ animationDelay: '1.45s' }}
             >
               <Link to='/proyectos'>
                 <Button variant='amber' size='lg' showArrow className='w-full sm:w-auto'>
-                  Explorar proyectos
+                  Explorar obras
                 </Button>
               </Link>
               <Link to='/servicios'>
                 <Button variant='outline' size='lg' className='w-full sm:w-auto'>
-                  Ver 9 Especialidades
+                  Ver especialidades
                 </Button>
               </Link>
             </div>
@@ -286,7 +267,7 @@ export default function HomePage() {
           <SectionHeader
             eyebrow='CATÁLOGO DE ESPECIALIDADES'
             title='Soluciones integrales en madera'
-            subtitle='Diseñamos y construimos con tecnología de punta y ebanistería tradicional para resolver desde un placard hasta una residencia completa.'
+            subtitle='Mobiliario a medida, envolventes y arquitectura en madera de alta precisión.'
             linkText='Ver las 9 categorías'
             linkTo='/servicios'
           />

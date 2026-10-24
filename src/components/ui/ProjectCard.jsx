@@ -146,8 +146,8 @@ export default function ProjectCard({ project, priority = false }) {
                 <ArrowUpRight className='w-4 h-4' />
               </div>
             </div>
-            <p className='mt-3 text-sm text-stone-400 line-clamp-2 leading-relaxed font-sans'>
-              {project.shortDescription}
+            <p className='mt-2.5 text-xs font-mono text-stone-400 line-clamp-1'>
+              // {project.materials}
             </p>
           </div>
 
