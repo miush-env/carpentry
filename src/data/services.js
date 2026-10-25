@@ -146,19 +146,24 @@ export const services = [
     "id": "decks-y-exteriores",
     "slug": "decks-y-exteriores",
     "number": "06",
-    "title": "Decks y exteriores",
-    "shortDescription": "Disfrutá la naturaleza con solados perimetrales, bordes de piscina y plataformas de madera dura.",
-    "fullDescription": "Espacios exteriores que resisten la intemperie y el paso de los años sin perder su encanto. Estructuras de soporte elevadas y tratadas con fijación oculta clip-system para un acabado continuo, seguro y libre de tornillos a la vista.",
+    "title": "Decks, aberturas y exteriores",
+    "shortDescription": "Disfrutá la naturaleza con solados perimetrales, bordes de piscina, aberturas y plataformas de madera.",
+    "fullDescription": "Espacios exteriores y aberturas que resisten la intemperie y el paso de los años sin perder su encanto. Estructuras de soporte elevadas y tratadas con fijación oculta clip-system, junto con ventanales y aberturas en maderas duras de máxima estanqueidad.",
     "image": "/images/exterior/exterior-1.jpg",
     "gallery": [
       "/images/exterior/exterior-1.jpg",
       "/images/exterior/exterior-2.jpg",
       "/images/exterior/exterior-3.jpg",
-      "/images/exterior/exterior-4.jpg"
+      "/images/exterior/exterior-4.jpg",
+      "/images/ventanas/ventanas-1.jpg",
+      "/images/ventanas/ventanas-2.jpg",
+      "/images/ventanas/ventanas-3.jpg",
+      "/images/ventanas/ventanas-4.jpg"
     ],
     "features": [
       "Fijaciones ocultas de acero inoxidable",
       "Tratamiento hidrófugo con protectores UV naturales",
+      "Aberturas y ventanales exteriores en madera maciza",
       "Maderas duras de máxima densidad resistentes a plagas",
       "Pendientes y drenajes proyectados para evitar estancamientos"
     ],
