@@ -149,12 +149,12 @@ export const services = [
     "title": "Decks y exteriores",
     "shortDescription": "Disfrutá la naturaleza con solados perimetrales, bordes de piscina y plataformas de madera dura.",
     "fullDescription": "Espacios exteriores que resisten la intemperie y el paso de los años sin perder su encanto. Estructuras de soporte elevadas y tratadas con fijación oculta clip-system para un acabado continuo, seguro y libre de tornillos a la vista.",
-    "image": "/images/plataformas/plataformas-1.jpg",
+    "image": "/images/exterior/exterior-1.jpg",
     "gallery": [
-      "/images/plataformas/plataformas-1.jpg",
-      "/images/plataformas/plataformas-2.jpg",
-      "/images/plataformas/plataformas-3.jpg",
-      "/images/vallas/vallas-1.jpg"
+      "/images/exterior/exterior-1.jpg",
+      "/images/exterior/exterior-2.jpg",
+      "/images/exterior/exterior-3.jpg",
+      "/images/exterior/exterior-4.jpg"
     ],
     "features": [
       "Fijaciones ocultas de acero inoxidable",

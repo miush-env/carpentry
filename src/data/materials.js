@@ -61,7 +61,7 @@ export const materials = [
     "durability": "Imputrescible, resistente al fuego (Clase A) e inmune a insectos xilófagos",
     "applications": "Decks de alto tránsito, bordes de piscina, pérgolas pesadas, umbrales y peldaños de escalera.",
     "description": "Una de las maderas más duras del planeta. Es la elección indiscutida para intemperie severa y contacto con agua.",
-    "image": "/images/plataformas/plataformas-2.jpg",
+    "image": "/images/exterior/exterior-2.jpg",
     "finishType": "Aceite de teca hidrorrepelente, lasur de base acuosa"
   },
   {

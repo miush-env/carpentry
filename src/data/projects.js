@@ -96,12 +96,12 @@ export const projects = [
     "leadTime": "2 semanas",
     "shortDescription": "Solárium perimetral y borde infinito para piscina con fijación oculta y protección UV de alta durabilidad.",
     "fullDescription": "Solución exterior de alta gama con uniones ingleteadas en las esquinas y tapas de inspección para salas de bombas totalmente invisibles. Soporta la exposición solar directa y el contacto constante con el agua.",
-    "heroImage": "/images/plataformas/plataformas-1.jpg",
+    "heroImage": "/images/exterior/exterior-1.jpg",
     "gallery": [
-      "/images/plataformas/plataformas-1.jpg",
-      "/images/plataformas/plataformas-2.jpg",
-      "/images/plataformas/plataformas-3.jpg",
-      "/images/plataformas/plataformas-4.jpg"
+      "/images/exterior/exterior-1.jpg",
+      "/images/exterior/exterior-2.jpg",
+      "/images/exterior/exterior-3.jpg",
+      "/images/exterior/exterior-4.jpg"
     ],
     "details": [
       "Tablas de lapacho de 1x4 pulgadas biseladas",
