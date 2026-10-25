@@ -210,37 +210,9 @@ export const services = [
     "categoryTag": "Arquitectura Exterior"
   },
   {
-    "id": "estructuras-de-madera",
-    "slug": "estructuras-de-madera",
-    "number": "08",
-    "title": "Estructuras y cubiertas de madera",
-    "shortDescription": "Resistencia y diseño arquitectónico en techos a la vista, cerchas, altillos y entrepisos estructurales.",
-    "fullDescription": "Cálculo, mecanizado y montaje de sistemas estructurales en madera pesada y madera laminada encolada (Glulam). Proyectos de cubiertas complejas, pórticos continuos y pabellones donde la madera es el elemento estructural y estético primordial.",
-    "image": "/images/techos/techos-4.jpg",
-    "gallery": [
-      "/images/techos/techos-4.jpg",
-      "/images/techos/techos-5.jpg",
-      "/images/techos/techos-6.jpg"
-    ],
-    "features": [
-      "Cálculo estático y verificación estructural profesional",
-      "Uniones ocultas tipo viga-columna con pasadores de acero",
-      "Madera seleccionada estructural secada a horno",
-      "Tratamientos ignífugos e insecticidas certificados"
-    ],
-    "materials": [
-      "Pino Oregón",
-      "Glulam Eucalipto",
-      "Anchico",
-      "Herrajes de fijación pesada"
-    ],
-    "processTime": "4 a 10 semanas",
-    "categoryTag": "Estructuras Mayores"
-  },
-  {
     "id": "construccion-modular",
     "slug": "construccion-modular",
-    "number": "09",
+    "number": "08",
     "title": "Construcción modular & Casas",
     "shortDescription": "Rápida, eficiente y sustentable. Casas de madera, módulos habitables y quinchos llave en mano.",
     "fullDescription": "Sistemas constructivos industrializados en madera con tecnología Timber Frame y paneles SIP. Fabricación controlada en taller que reduce tiempos de obra en un 70% y garantiza una eficiencia térmica y acústica de estándar europeo.",
