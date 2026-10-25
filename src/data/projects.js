@@ -70,12 +70,11 @@ export const projects = [
     "leadTime": "3 semanas",
     "shortDescription": "Sistema de vestidor de suelo a techo con frentes lisos, tiradores fresados integrados y distribución interior ergonómica.",
     "fullDescription": "Desarrollado para una suite principal en un edificio contemporáneo. Resuelve el guardado integral sin sobrecargar el espacio, aportando la calidez aromática inconfundible del cedro natural.",
-    "heroImage": "/images/muebles/muebles-1.jpg",
+    "heroImage": "/images/placares/placar-1.jpg",
     "gallery": [
-      "/images/muebles/muebles-1.jpg",
-      "/images/muebles/muebles-2.jpg",
-      "/images/muebles/muebles-3.jpg",
-      "/images/muebles/muebles-4.jpg"
+      "/images/placares/placar-1.jpg",
+      "/images/placares/ropero-1.jpg",
+      "/images/placares/vestidor-1.jpg"
     ],
     "details": [
       "Puertas batientes de 2.80m con bisagras ocultas de triple regulación",

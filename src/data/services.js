@@ -64,12 +64,11 @@ export const services = [
     "title": "Placares y vestidores",
     "shortDescription": "Organización y estilo en cada rincón con vestidores abiertos, puertas corredizas y frentes alistonados.",
     "fullDescription": "Sistemas de guardado pensados a escala humana. Configuraciones ergonómicas que aprovechan cada centímetro cúbico, con frentes lisos al techo, vidrios tonalizados, perfiles de aluminio anodizado y accesorios interiores tapizados en lino.",
-    "image": "/images/muebles/muebles-5.jpg",
+    "image": "/images/placares/placar-1.jpg",
     "gallery": [
-      "/images/muebles/muebles-5.jpg",
-      "/images/muebles/muebles-6.jpg",
-      "/images/muebles/muebles-7.jpg",
-      "/images/muebles/muebles-8.jpg"
+      "/images/placares/placar-1.jpg",
+      "/images/placares/ropero-1.jpg",
+      "/images/placares/vestidor-1.jpg"
     ],
     "features": [
       "Distribuciones modulares personalizadas según el guardarropa",
