@@ -8,6 +8,7 @@ import Toast from './components/ui/Toast';
 import QuoteModal from './components/ui/QuoteModal';
 import ProjectQuickModal from './components/ui/ProjectQuickModal';
 import MaterialModal from './components/ui/MaterialModal';
+import ImagePreviewModal from './components/ui/ImagePreviewModal';
 
 import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
@@ -47,6 +48,7 @@ export default function App() {
           <QuoteModal />
           <ProjectQuickModal />
           <MaterialModal />
+          <ImagePreviewModal />
           <Toast />
         </div>
       </Router>

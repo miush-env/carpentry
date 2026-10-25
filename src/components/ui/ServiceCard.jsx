@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Paintbrush } from 'lucide-react';
+import { ArrowRight, Paintbrush, Maximize2 } from 'lucide-react';
+import { useModal } from '../../context/ModalContext';
 
 function CircularSawBlade() {
   return (
@@ -41,6 +42,7 @@ function CircularSawBlade() {
 }
 
 export default function ServiceCard({ service }) {
+  const { openImagePreview } = useModal();
   const characters = service.title.split('');
   const totalChars = characters.length;
 
@@ -49,8 +51,16 @@ export default function ServiceCard({ service }) {
       to={`/servicios/${service.slug}`}
       className='group relative flex flex-col bg-stone-900 border-2 border-stone-800 overflow-hidden transition-all duration-300 hover:border-amber-500 hover:shadow-brutal-amber'
     >
-      {/* Top Image with saw-blade cutting reveal */}
-      <div className='relative aspect-[16/10] w-full overflow-hidden bg-stone-950 select-none'>
+      {/* Top Image with saw-blade cutting reveal & Fullscreen Zoom Preview */}
+      <div
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          openImagePreview(service.image, service.title);
+        }}
+        className='relative aspect-[16/10] w-full overflow-hidden bg-stone-950 select-none cursor-zoom-in'
+        title='Clic para ampliar pantalla completa'
+      >
         {/* Base layer: Natural, warm wood photography (Alive & crisp, not dead) */}
         <img
           src={service.image}
@@ -72,6 +82,12 @@ export default function ServiceCard({ service }) {
 
         {/* Subtle grid texture overlay */}
         <div className='absolute inset-0 bg-stone-950/15 group-hover:opacity-0 transition-opacity pointer-events-none' />
+
+        {/* Fullscreen Expand Icon Badge */}
+        <div className='absolute top-3 left-3 px-2.5 py-1 bg-stone-950/90 backdrop-blur-sm border border-stone-700 text-stone-200 text-[10px] font-mono font-bold uppercase tracking-wider flex items-center gap-1.5 opacity-90 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-200 z-20 pointer-events-none'>
+          <Maximize2 className='w-3 h-3 text-amber-400' />
+          <span>AMPLIAR</span>
+        </div>
         
         {/* Giant Watermark Number */}
         <div className='absolute top-3 right-3 px-3 py-1 bg-stone-950/90 backdrop-blur-sm border border-stone-700 text-amber-400 text-xs font-mono font-extrabold tracking-widest z-10'>

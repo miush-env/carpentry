@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, CheckCircle2, Clock, Layers, Sparkles, Plus } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle2, Clock, Layers, Sparkles, Plus, Maximize2 } from 'lucide-react';
 import Button from '../components/ui/Button';
 import ProjectCard from '../components/ui/ProjectCard';
 import { services } from '../data/services';
@@ -9,7 +9,7 @@ import { useModal } from '../context/ModalContext';
 
 export default function ServiceDetailPage() {
   const { slug } = useParams();
-  const { openQuoteModal } = useModal();
+  const { openQuoteModal, openImagePreview } = useModal();
 
   const service = services.find(s => s.slug === slug);
 
@@ -60,12 +60,20 @@ export default function ServiceDetailPage() {
           <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
             {/* Left Column */}
             <div className='lg:col-span-8 space-y-12'>
-              <div className='aspect-[16/10] w-full overflow-hidden bg-stone-950 border-2 border-stone-800 shadow-brutal-dark'>
+              <div
+                onClick={() => openImagePreview(service.image, service.title)}
+                className='relative aspect-[16/10] w-full overflow-hidden bg-stone-950 border-2 border-stone-800 shadow-brutal-dark cursor-zoom-in group'
+                title='Clic para ampliar pantalla completa'
+              >
                 <img
                   src={service.image}
                   alt={service.title}
-                  className='w-full h-full object-cover grayscale-[15%]'
+                  className='w-full h-full object-cover grayscale-[15%] group-hover:scale-105 transition-transform duration-500'
                 />
+                <div className='absolute bottom-3 right-3 px-3 py-1.5 bg-stone-950/90 backdrop-blur-sm border border-stone-700 text-xs font-mono font-bold text-amber-400 flex items-center gap-1.5 opacity-90 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity z-10'>
+                  <Maximize2 className='w-3.5 h-3.5' />
+                  <span>AMPLIAR PANTALLA COMPLETA</span>
+                </div>
               </div>
 
               <div>
@@ -101,8 +109,20 @@ export default function ServiceDetailPage() {
                   </h3>
                   <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
                     {service.gallery.slice(1).map((imgUrl, i) => (
-                      <div key={i} className='aspect-[4/3] overflow-hidden border-2 border-stone-800 bg-stone-950'>
-                        <img src={imgUrl} alt='Detalle' className='w-full h-full object-cover hover:scale-105 transition-transform duration-500' />
+                      <div
+                        key={i}
+                        onClick={() => openImagePreview(imgUrl, `${service.title} — Detalle ${i + 1}`)}
+                        className='relative aspect-[4/3] overflow-hidden border-2 border-stone-800 bg-stone-950 cursor-zoom-in group'
+                        title='Clic para ampliar pantalla completa'
+                      >
+                        <img
+                          src={imgUrl}
+                          alt='Detalle'
+                          className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-500'
+                        />
+                        <div className='absolute bottom-3 right-3 p-2 bg-stone-950/90 border border-stone-700 text-amber-400 opacity-0 group-hover:opacity-100 transition-opacity z-10'>
+                          <Maximize2 className='w-3.5 h-3.5' />
+                        </div>
                       </div>
                     ))}
                   </div>

@@ -7,7 +7,18 @@ export function ModalProvider({ children }) {
   const [initialProjectType, setInitialProjectType] = useState('');
   const [selectedQuickProject, setSelectedQuickProject] = useState(null);
   const [selectedMaterial, setSelectedMaterial] = useState(null);
+  const [previewImage, setPreviewImage] = useState(null);
   const [toastMessage, setToastMessage] = useState(null);
+
+  const openImagePreview = (src, title = '') => {
+    setPreviewImage({ src, title });
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeImagePreview = () => {
+    setPreviewImage(null);
+    document.body.style.overflow = 'unset';
+  };
 
   const openQuoteModal = (projectType = '') => {
     setInitialProjectType(projectType);
@@ -60,6 +71,9 @@ export function ModalProvider({ children }) {
         selectedMaterial,
         openMaterialModal,
         closeMaterialModal,
+        previewImage,
+        openImagePreview,
+        closeImagePreview,
         toastMessage,
         showToast
       }}
