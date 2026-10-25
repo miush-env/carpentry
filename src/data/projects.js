@@ -12,12 +12,12 @@ export const projects = [
     "leadTime": "6 meses",
     "shortDescription": "Diseñamos y construimos esta residencia de madera, combinando arquitectura, funcionalidad y calidez. Un proyecto pensado para disfrutar todo el año.",
     "fullDescription": "Concebida como una vivienda contemporánea que dialoga íntimamente con su entorno vegetal. La estructura principal está resuelta mediante pórticos de madera laminada vista, mientras que los cerramientos exteriores combinan tablas de madera tratada y grandes paños vidriados de piso a techo que diluyen el límite entre interior y exterior.",
-    "heroImage": "/images/casas/casas-1.jpg",
+    "heroImage": "/images/exterior/exterior-2.jpg",
     "gallery": [
-      "/images/casas/casas-1.jpg",
-      "/images/casas/casas-2.jpg",
-      "/images/casas/casas-3.jpg",
-      "/images/casas/casas-4.jpg"
+      "/images/exterior/exterior-1.jpg",
+      "/images/exterior/exterior-2.jpg",
+      "/images/exterior/exterior-3.jpg",
+      "/images/exterior/exterior-4.jpg"
     ],
     "details": [
       "3 dormitorios en suite con vestidores integrados en cedro",
@@ -207,12 +207,12 @@ export const projects = [
     "leadTime": "45 días",
     "shortDescription": "Módulo habitable prefabricado en taller y montado en sitio en 5 días hábiles, con máxima eficiencia energética.",
     "fullDescription": "Diseñado como vivienda de fin de semana o estudio independiente. Su envolvente hermética reduce el consumo de climatización en un 80% respecto a la construcción tradicional.",
-    "heroImage": "/images/casas/casas-5.jpg",
+    "heroImage": "/images/exterior/exterior-1.jpg",
     "gallery": [
-      "/images/casas/casas-5.jpg",
-      "/images/casas/casas-6.jpg",
-      "/images/casas/casas-7.jpg",
-      "/images/casas/casas-8.jpg"
+      "/images/exterior/exterior-1.jpg",
+      "/images/exterior/exterior-2.jpg",
+      "/images/exterior/exterior-3.jpg",
+      "/images/exterior/exterior-4.jpg"
     ],
     "details": [
       "Estructura modular transportable en semi-remolque",

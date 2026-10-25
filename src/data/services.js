@@ -244,12 +244,12 @@ export const services = [
     "title": "Construcción modular & Casas",
     "shortDescription": "Rápida, eficiente y sustentable. Casas de madera, módulos habitables y quinchos llave en mano.",
     "fullDescription": "Sistemas constructivos industrializados en madera con tecnología Timber Frame y paneles SIP. Fabricación controlada en taller que reduce tiempos de obra en un 70% y garantiza una eficiencia térmica y acústica de estándar europeo.",
-    "image": "/images/casas/casas-1.jpg",
+    "image": "/images/exterior/exterior-1.jpg",
     "gallery": [
-      "/images/casas/casas-1.jpg",
-      "/images/casas/casas-2.jpg",
-      "/images/casas/casas-5.jpg",
-      "/images/casas/casas-9.jpg"
+      "/images/exterior/exterior-1.jpg",
+      "/images/exterior/exterior-2.jpg",
+      "/images/exterior/exterior-3.jpg",
+      "/images/exterior/exterior-4.jpg"
     ],
     "features": [
       "Aislación térmica de alta densidad en lana de vidrio y celulosa",
