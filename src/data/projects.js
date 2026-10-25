@@ -100,12 +100,12 @@ export const projects = [
     "gallery": [
       "/images/exterior/exterior-1.jpg",
       "/images/exterior/exterior-2.jpg",
-      "/images/exterior/exterior-3.jpg",
-      "/images/exterior/exterior-4.jpg",
+      "/images/vallas/vallas-1.jpg",
+      "/images/vallas/vallas-2.jpg",
+      "/images/vallas/vallas-3.jpg",
+      "/images/vallas/vallas-4.jpg",
       "/images/ventanas/ventanas-1.jpg",
-      "/images/ventanas/ventanas-2.jpg",
-      "/images/ventanas/ventanas-3.jpg",
-      "/images/ventanas/ventanas-4.jpg"
+      "/images/ventanas/ventanas-2.jpg"
     ],
     "details": [
       "Tablas de lapacho de 1x4 pulgadas biseladas",
