@@ -154,11 +154,12 @@ export const projects = [
     "leadTime": "3 semanas",
     "shortDescription": "Estructura exterior liviana con celosías regulables que filtran la luz cenital sobre un patio de diseño contemporáneo.",
     "fullDescription": "Estructura proyectada para generar sombra y un ambiente de galería exterior habitable en cualquier época del año. Diseñada para soportar cargas de viento sin columnas intermedias.",
-    "heroImage": "/images/techos/techos-1.jpg",
+    "heroImage": "/images/techos/techo-1.jpg",
     "gallery": [
-      "/images/techos/techos-1.jpg",
-      "/images/techos/techos-2.jpg",
-      "/images/techos/techos-3.jpg"
+      "/images/techos/techo-1.jpg",
+      "/images/techos/techo-2.jpg",
+      "/images/techos/techo-3.jpg",
+      "/images/techos/techo-4.jpg"
     ],
     "details": [
       "Vigas principales de 12x4 pulgadas con unión de caja y espiga reforzada",

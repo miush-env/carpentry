@@ -188,11 +188,12 @@ export const services = [
     "title": "Pérgolas y techos",
     "shortDescription": "Sombra y estilo para tu espacio exterior, integrando vigas laminadas, celosías y policarbonato.",
     "fullDescription": "Estructuras ligeras y sólidas que extienden el área social hacia el jardín. Con cubiertas transparentes impermeables o sistemas alistonados bioclimáticos que filtran la luz solar creando sombras dinámicas a lo largo del día.",
-    "image": "/images/techos/techos-1.jpg",
+    "image": "/images/techos/techo-1.jpg",
     "gallery": [
-      "/images/techos/techos-1.jpg",
-      "/images/techos/techos-2.jpg",
-      "/images/techos/techos-3.jpg"
+      "/images/techos/techo-1.jpg",
+      "/images/techos/techo-2.jpg",
+      "/images/techos/techo-3.jpg",
+      "/images/techos/techo-4.jpg"
     ],
     "features": [
       "Vigas multilaminadas de gran luz estructural",
