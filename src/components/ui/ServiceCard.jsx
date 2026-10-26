@@ -7,7 +7,11 @@ export default function ServiceCard({ service }) {
   const { openImagePreview } = useModal();
 
   return (
-    <div className='group relative flex flex-col bg-stone-900 border-2 border-stone-800 overflow-hidden transition-all duration-300 hover:border-amber-500 hover:shadow-brutal-amber'>
+    <Link
+      to={`/servicios/${service.slug}`}
+      className='group relative flex flex-col bg-stone-900 border-2 border-stone-800 overflow-hidden transition-all duration-300 hover:border-amber-500 hover:shadow-brutal-amber cursor-pointer'
+      aria-label={`Ver detalles del servicio ${service.title}`}
+    >
       {/* 1. Contenedor de Imagen bien encuadrada y centrada */}
       <div className='relative aspect-[16/11] w-full overflow-hidden bg-stone-950 select-none'>
         <img
@@ -30,7 +34,7 @@ export default function ServiceCard({ service }) {
           {service.categoryTag}
         </div>
 
-        {/* Botón explícito e inequívoco para ampliar la foto */}
+        {/* Botón para ampliar foto (con stopPropagation para no disparar la navegación al detalle) */}
         <button
           type='button'
           onClick={(e) => {
@@ -71,18 +75,14 @@ export default function ServiceCard({ service }) {
           </div>
         </div>
 
-        {/* 3. Botón de Navegación Directo y Claro: el usuario sabe exactamente qué hace */}
+        {/* 3. Botón CTA vistoso y llamativo (ámbar de alto contraste) */}
         <div className='mt-6 pt-4 border-t border-stone-800'>
-          <Link
-            to={`/servicios/${service.slug}`}
-            className='w-full py-3 px-4 bg-stone-800 hover:bg-amber-500 text-stone-100 hover:text-stone-950 font-bold uppercase tracking-wider text-xs sm:text-sm flex items-center justify-center gap-2 border-2 border-stone-700 hover:border-amber-500 shadow-brutal-sm transition-all duration-200'
-            aria-label={`Ver detalles del servicio ${service.title}`}
-          >
+          <span className='w-full py-3.5 px-4 bg-amber-500 group-hover:bg-amber-400 text-stone-950 font-black uppercase tracking-wider text-xs sm:text-sm flex items-center justify-center gap-2 border-2 border-amber-500 group-hover:border-amber-400 shadow-brutal-sm transition-all duration-200'>
             <span>VER SERVICIO</span>
-            <ArrowRight className='w-4 h-4' />
-          </Link>
+            <ArrowRight className='w-4.5 h-4.5 stroke-[2.5]' />
+          </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

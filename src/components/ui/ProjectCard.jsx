@@ -162,11 +162,11 @@ export default function ProjectCard({ project, priority = false }) {
             </span>
           </div>
 
-          {/* Botón claro de navegación */}
+          {/* Botón claro de navegación - Vistoso y en color ámbar de alto impacto */}
           <div className='mt-4 pt-3 border-t border-stone-800/80'>
-            <span className='w-full py-2.5 px-3 bg-stone-800/90 group-hover:bg-amber-500 text-stone-200 group-hover:text-stone-950 font-bold uppercase tracking-wider text-xs flex items-center justify-center gap-2 border border-stone-700 group-hover:border-amber-500 transition-colors shadow-sm'>
+            <span className='w-full py-3 px-3 bg-amber-500 group-hover:bg-amber-400 text-stone-950 font-black uppercase tracking-wider text-xs sm:text-sm flex items-center justify-center gap-2 border-2 border-amber-500 shadow-brutal-sm transition-all duration-200'>
               <span>VER PROYECTO</span>
-              <ArrowUpRight className='w-4 h-4' />
+              <ArrowUpRight className='w-4.5 h-4.5 stroke-[2.5]' />
             </span>
           </div>
         </div>
