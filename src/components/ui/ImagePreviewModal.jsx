@@ -1,29 +1,69 @@
-import React, { useEffect } from 'react';
-import { X, ZoomIn } from 'lucide-react';
+import React, { useEffect, useRef } from 'react';
+import { X } from 'lucide-react';
 import { useModal } from '../../context/ModalContext';
 
 export default function ImagePreviewModal() {
   const { previewImage, closeImagePreview } = useModal();
+  const isPushedRef = useRef(false);
 
   useEffect(() => {
-    if (!previewImage) return;
+    if (!previewImage) {
+      isPushedRef.current = false;
+      return;
+    }
+
+    // Push a history state so that pressing the mobile/hardware back button
+    // closes the photo preview instead of navigating the page back
+    if (!isPushedRef.current) {
+      window.history.pushState({ modal: 'image-preview' }, '');
+      isPushedRef.current = true;
+    }
+
+    const handlePopState = () => {
+      // The browser already popped the state when user pressed Back
+      isPushedRef.current = false;
+      closeImagePreview();
+    };
 
     const handleKeyDown = (e) => {
       if (e.key === 'Escape') {
-        closeImagePreview();
+        handleClose();
       }
     };
 
+    window.addEventListener('popstate', handlePopState);
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('keydown', handleKeyDown);
+      // If modal was unmounted or closed without going through popstate, revert the pushed history entry
+      if (isPushedRef.current) {
+        isPushedRef.current = false;
+        if (window.history.state?.modal === 'image-preview') {
+          window.history.back();
+        }
+      }
+    };
   }, [previewImage, closeImagePreview]);
+
+  // Handle closing from UI (clicking X button, clicking backdrop, or pressing ESC)
+  const handleClose = () => {
+    if (isPushedRef.current) {
+      isPushedRef.current = false;
+      if (window.history.state?.modal === 'image-preview') {
+        window.history.back();
+      }
+    }
+    closeImagePreview();
+  };
 
   if (!previewImage) return null;
 
   return (
     <div
       className='fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 md:p-8 bg-black/90 backdrop-blur-md animate-in fade-in duration-200 select-none cursor-pointer'
-      onClick={closeImagePreview}
+      onClick={handleClose}
       role='dialog'
       aria-modal='true'
       aria-label='Vista previa de imagen'
@@ -31,7 +71,7 @@ export default function ImagePreviewModal() {
       {/* Top action bar with Close Button */}
       <button
         type='button'
-        onClick={closeImagePreview}
+        onClick={handleClose}
         className='absolute top-4 right-4 sm:top-6 sm:right-6 z-50 w-11 h-11 bg-stone-900/90 hover:bg-amber-500 text-stone-300 hover:text-stone-950 border-2 border-stone-700 hover:border-amber-500 transition-colors flex items-center justify-center cursor-pointer shadow-brutal-sm'
         aria-label='Cerrar vista previa'
       >
