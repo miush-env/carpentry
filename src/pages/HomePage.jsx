@@ -191,19 +191,19 @@ export default function HomePage() {
               Arquitectura contemporánea en madera y mobiliario de autor con ingeniería de alta precisión.
             </p>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Textos claros y concisos para todo público */}
             <div
               className='mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 animate-beam-in'
               style={{ animationDelay: '1.45s' }}
             >
-              <Link to='/proyectos'>
-                <Button variant='amber' size='lg' showArrow className='w-full sm:w-auto'>
-                  Explorar obras
+              <Link to='/servicios'>
+                <Button variant='amber' size='lg' showArrow className='w-full sm:w-auto text-stone-950 font-bold'>
+                  Ver Servicios
                 </Button>
               </Link>
-              <Link to='/servicios'>
-                <Button variant='outline' size='lg' className='w-full sm:w-auto'>
-                  Ver especialidades
+              <Link to='/proyectos'>
+                <Button variant='outline' size='lg' className='w-full sm:w-auto text-stone-100 font-bold'>
+                  Ver Proyectos Realizados
                 </Button>
               </Link>
             </div>
@@ -320,7 +320,7 @@ export default function HomePage() {
           <div className='mt-16 text-center'>
             <Link to='/proyectos'>
               <Button variant='amber' size='lg' showArrow>
-                Ver todos los proyectos (+9 obras)
+                Ver Todos los Proyectos
               </Button>
             </Link>
           </div>
@@ -477,13 +477,13 @@ export default function HomePage() {
               size='lg'
               showArrow
               onClick={() => openQuoteModal()}
-              className='w-full sm:w-auto'
+              className='w-full sm:w-auto font-bold'
             >
-              Solicitar presupuesto formal
+              Pedir Presupuesto
             </Button>
             <Link to='/contacto'>
-              <Button variant='outline' size='lg' className='w-full sm:w-auto'>
-                Contactar al taller
+              <Button variant='outline' size='lg' className='w-full sm:w-auto font-bold'>
+                Ver Datos de Contacto
               </Button>
             </Link>
           </div>

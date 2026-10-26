@@ -152,13 +152,21 @@ export default function ProjectCard({ project, priority = false }) {
           </div>
 
           {/* Specs technical footer */}
-          <div className='mt-6 pt-4 border-t border-stone-800/80 flex items-center justify-between text-xs font-mono text-stone-400'>
+          <div className='mt-4 pt-3 border-t border-stone-800/80 flex items-center justify-between text-xs font-mono text-stone-400'>
             <span className='flex items-center gap-1.5'>
               <MapPin className='w-3 h-3 text-amber-500' />
               {project.location}
             </span>
             <span className='px-2 py-0.5 bg-stone-950 border border-stone-800 text-amber-400 font-bold'>
               {project.surface}
+            </span>
+          </div>
+
+          {/* Botón claro de navegación */}
+          <div className='mt-4 pt-3 border-t border-stone-800/80'>
+            <span className='w-full py-2.5 px-3 bg-stone-800/90 group-hover:bg-amber-500 text-stone-200 group-hover:text-stone-950 font-bold uppercase tracking-wider text-xs flex items-center justify-center gap-2 border border-stone-700 group-hover:border-amber-500 transition-colors shadow-sm'>
+              <span>VER PROYECTO</span>
+              <ArrowUpRight className='w-4 h-4' />
             </span>
           </div>
         </div>

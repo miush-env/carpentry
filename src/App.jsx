@@ -9,6 +9,7 @@ import QuoteModal from './components/ui/QuoteModal';
 import ProjectQuickModal from './components/ui/ProjectQuickModal';
 import MaterialModal from './components/ui/MaterialModal';
 import ImagePreviewModal from './components/ui/ImagePreviewModal';
+import FloatingActions from './components/ui/FloatingActions';
 
 import HomePage from './pages/HomePage';
 import ServicesPage from './pages/ServicesPage';
@@ -49,6 +50,7 @@ export default function App() {
           <ProjectQuickModal />
           <MaterialModal />
           <ImagePreviewModal />
+          <FloatingActions />
           <Toast />
         </div>
       </Router>

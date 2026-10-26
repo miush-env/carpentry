@@ -68,7 +68,7 @@ export default function ServiceDetailPage() {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className='w-full h-full object-cover grayscale-[15%] group-hover:scale-105 transition-transform duration-500'
+                  className='w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500'
                 />
                 <div className='absolute bottom-3 right-3 px-3 py-1.5 bg-stone-950/90 backdrop-blur-sm border border-stone-700 text-xs font-mono font-bold text-amber-400 flex items-center gap-1.5 opacity-90 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity z-10'>
                   <Maximize2 className='w-3.5 h-3.5' />
@@ -118,7 +118,7 @@ export default function ServiceDetailPage() {
                         <img
                           src={imgUrl}
                           alt='Detalle'
-                          className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-500'
+                          className='w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500'
                         />
                         <div className='absolute bottom-3 right-3 p-2 bg-stone-950/90 border border-stone-700 text-amber-400 opacity-0 group-hover:opacity-100 transition-opacity z-10'>
                           <Maximize2 className='w-3.5 h-3.5' />
@@ -163,16 +163,24 @@ export default function ServiceDetailPage() {
                   </div>
                 </div>
 
-                <div className='pt-4 border-t-2 border-stone-800'>
+                <div className='pt-4 border-t-2 border-stone-800 space-y-3'>
                   <Button
                     variant='amber'
                     size='lg'
-                    className='w-full'
+                    className='w-full font-bold'
                     showArrow
                     onClick={() => openQuoteModal(service.title)}
                   >
-                    Cotizar este servicio
+                    Pedir Presupuesto
                   </Button>
+                  <a
+                    href={`https://wa.me/5491152639870?text=${encodeURIComponent(`Hola, estuve viendo la web de NEXO Carpintería y quisiera consultar por el servicio de ${service.title}.`)}`}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='w-full py-3.5 px-4 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold uppercase tracking-wider text-xs sm:text-sm flex items-center justify-center gap-2 border-2 border-[#25D366] shadow-brutal-sm transition-all duration-200'
+                  >
+                    <span>Consultar por WhatsApp</span>
+                  </a>
                 </div>
               </div>
             </div>

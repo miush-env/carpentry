@@ -16,13 +16,13 @@ export default function ServicesPage() {
       <section className='pt-36 pb-20 border-b-2 border-stone-800 bg-[#171513] bg-grid-pattern overflow-hidden'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='inline-block mb-3 px-3 py-1 bg-amber-500/10 border border-amber-500/30 text-xs font-mono font-bold uppercase tracking-widest text-amber-400'>
-            // ESPECIALIDADES CONSTRUCTIVAS (01—09)
+            // SERVICIOS A MEDIDA (01—08)
           </div>
           <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-black text-stone-100 uppercase leading-[1.08] max-w-4xl break-words [overflow-wrap:anywhere]'>
-            SERVICIOS & EBANISTERÍA
+            NUESTROS SERVICIOS
           </h1>
           <p className='mt-6 text-base sm:text-xl text-stone-300 font-normal max-w-2xl leading-relaxed font-sans'>
-            Desarrollamos soluciones a medida sin límites tipológicos: desde mobiliario exclusivo hasta envolventes y estructuras arquitectónicas complejas.
+            Trabajos de carpintería y ebanistería a medida: desde mobiliario exclusivo hasta techos, pérgolas, pisos y aberturas.
           </p>
         </div>
       </section>

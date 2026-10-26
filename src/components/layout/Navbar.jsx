@@ -84,7 +84,7 @@ export default function Navbar() {
               onClick={() => openQuoteModal()}
               className='px-5 py-2.5 bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-mono font-bold uppercase tracking-wider border-2 border-stone-950 shadow-brutal-sm active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all cursor-pointer flex items-center gap-2'
             >
-              <span>Presupuesto</span>
+              <span>Pedir Presupuesto</span>
               <ArrowRight className='w-3.5 h-3.5' />
             </button>
           </div>
